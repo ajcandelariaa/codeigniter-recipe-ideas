@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.recipe-logo{
+    width: 140px;
+}
+.box-shadow{
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    box-shadow: 2px 2px 19px -2px rgba(158, 158, 158, 0.75);
+    -webkit-box-shadow: 2px 2px 19px -2px rgba(158, 158, 158, 0.75);
+    -moz-box-shadow: 2px 2px 19px -2px rgba(158, 158, 158, 0.75);
+    border-radius: 15px;
+}
+.wrapper-information{
+    display: grid;
+    grid-template-columns: 380px auto;
+}
+.recipe-food-image{
+    width: 360px;
+    height: 250px;
+}
+.recipe-name{
+    font-size: 28px;
+    width: 95%;
+}
+.recipe-time-posted{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.recipe-time-posted a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.clock-icon{
+    margin-right: 5px;
+}
+.recipe-description{
+    font-size: 18px;
+    width: 95%;
+    text-align: justify;
+    margin-top: 10px;
+}
+.recipe-category{
+    color: #015a06;
+    margin-top: 10px;
+}
+.recipe-author{
+    margin-top: 20px;
+}
+.recipe-author-image{
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.recipe-author-name{
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* LOGIN FORM */
+.login .box-shadow{
+    width: 40%;
+    margin: 0 auto;
+}
+.login .wrapper form{
+    width: 80%;
+    margin: 0 auto;
+}
+.login form .btn-primary{
+    width: 100%;
+}
+.login .alert-danger{
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+/* REGISTRATION FORM */
+.register .alert-success{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.register #previewImgReg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* USER ACCOUNT */
+.user-icon-navbar img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.bg-active{
+    background-color: #e9ebec;
+}
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus{
+    background-color: #e9ebec;
+    color: #000;
+}
+.account-info .wrapper form{
+    width: 95%;
+}
+.account-info .account-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.not-verified{
+    color: red;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.verified{
+    color: green;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.add-recipe .box-shadow{
+    width: 40%;
+    margin: 0 auto;
+}
+.add-recipe .btn-warning{
+    width: 100%;
+}
+.add-recipe .btn-success{
+    width: 30%;
+}
+
+.edit-recipe .btn-warning{
+    width: 100%;
+}
+.edit-recipe .btn-success{
+    width: 50%;
+}
+
+
+
+/* MY RECIPE */
+/* .my-recipe .box-shadow{
+    width: 60%;
+    margin: 0 auto;
+} */
+
+
+/* PAGE NAVIGATION */
+.recipes ul li a{
+    text-decoration: none;
+    color: black;
+}
